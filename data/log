@@ -1,0 +1,25 @@
+16x16white
+Original: 2168 bits
+Run-Length: 624 bits
+Huffman: 271 bits
+
+16x16zero
+Original: 2168 bits
+Run-Length: 624 bits
+Huffman: 271 bits
+
+hope
+Original: 2816 bits
+Run-Length: 5568 bits
+Huffman: 1531 bits
+
+oneliner
+Original: 120 bits
+Run-Length: 112 bits
+Huffman: 39 bits
+
+sonnet1
+Original: 4880 bits
+Run-Length: 9664 bits
+Huffman: 2706 bits
+
