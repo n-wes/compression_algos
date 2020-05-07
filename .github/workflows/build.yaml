@@ -24,8 +24,9 @@ jobs:
       run: cd data && ls
   
   upload-artifacts:
-    name: Upload results to artifact
-    uses: actions/upload-artifact@v1
-    with: data
-    path: data/
+    steps:
+    - name: Upload results to artifact
+      uses: actions/upload-artifact@v1
+      with: data
+        path: data/
 
