@@ -62,7 +62,7 @@ class file_processor():
     def append_log_csv(self, data):
         with open(self.__log_csv, 'a') as f:
             if os.stat(self.__log_csv).st_size == 0:
-                f.write('file_name, original_size, run_length_size, huffman_size')
+                f.write('file_name,original_size,run_length_size,huffman_size')
             if type(data) != int:
                 f.write(f'\n{data}')
             else:

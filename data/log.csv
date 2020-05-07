@@ -1,4 +1,4 @@
-file_name, original_size, run_length_size, huffman_size
+file_name,original_size,run_length_size,huffman_size
 abcdefg,6096,320,2286
 corona,242112,357440,66438
 foxdog,344,688,194
