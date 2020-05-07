@@ -5,16 +5,20 @@ import os
 def main():
     directory = './data'
 
-    # Delete trash
-    for file in os.listdir(directory):
-        if not file.endswith('.txt'):
-            os.remove(os.path.join(directory, file))
-
+    # Delete all previous outputs and logs
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if not file.endswith('txt'):
+                os.remove(os.path.join(root, file))
     # Compress all Files
-    for file in os.listdir(directory):
-        if file.endswith('.txt'):
-            fp = file_processor(os.path.join(directory, file), os.path.join(directory, 'log'))
-            fp.compress_file()
+    for root, dirs, files in os.walk(directory):
+        for file in files:
+            if file.endswith('.txt'):
+                fp = file_processor(file.split('.')[0],
+                    os.path.join(root, file),
+                    os.path.join(directory, 'output'),
+                    os.path.join(directory, 'log'))
+                fp.compress_file()
 
 if  __name__ == "__main__":
     main()
