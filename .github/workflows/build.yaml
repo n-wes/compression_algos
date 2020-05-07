@@ -27,6 +27,7 @@ jobs:
     steps:
     - name: Upload results to artifact
       uses: actions/upload-artifact@v1
-      with: data
+      with:
+        name: data
         path: data/
 
