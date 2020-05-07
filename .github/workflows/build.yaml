@@ -15,16 +15,10 @@ jobs:
         architecture: 'x64'
     - name: Display Python version
       run: python -c "import sys; print(sys.version)"
-  
-  run:
-    steps:
     - name: Run build
       run: python main.py
     - name: Check data
       run: cd data && ls
-  
-  upload-artifacts:
-    steps:
     - name: Upload results to artifact
       uses: actions/upload-artifact@v1
       with:
