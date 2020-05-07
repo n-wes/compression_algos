@@ -1,0 +1,9 @@
+file_name, original_size, run_length_size, huffman_size
+abcdefg,6096,320,2286
+corona,242112,357440,66438
+foxdog,344,688,194
+hello_world,96,176,37
+hope,2816,5568,1531
+keyboardsmash,1504,2960,863
+oneline,360,144,135
+sonnet,4880,9664,2706

@@ -17,7 +17,8 @@ def main():
                 fp = file_processor(file.split('.')[0],
                     os.path.join(root, file),
                     os.path.join(directory, 'output'),
-                    os.path.join(directory, 'log'))
+                    os.path.join(directory, 'log'),
+                    os.path.join(directory, 'log.csv'))
                 fp.compress_file()
 
 if  __name__ == "__main__":
