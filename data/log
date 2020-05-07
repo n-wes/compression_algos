@@ -1,24 +1,34 @@
-16x16white
-Original: 2168 bits
-Run-Length: 624 bits
-Huffman: 271 bits
+corona
+Original: 242112 bits
+Run-Length: 357440 bits
+Huffman: 66438 bits
 
-16x16zero
-Original: 2168 bits
-Run-Length: 624 bits
-Huffman: 271 bits
+foxdog
+Original: 344 bits
+Run-Length: 688 bits
+Huffman: 194 bits
+
+hello_world
+Original: 96 bits
+Run-Length: 176 bits
+Huffman: 37 bits
 
 hope
 Original: 2816 bits
 Run-Length: 5568 bits
 Huffman: 1531 bits
 
-oneliner
-Original: 120 bits
-Run-Length: 112 bits
-Huffman: 39 bits
+keyboardsmash
+Original: 1504 bits
+Run-Length: 2960 bits
+Huffman: 863 bits
 
-sonnet1
+oneline
+Original: 360 bits
+Run-Length: 144 bits
+Huffman: 135 bits
+
+sonnet
 Original: 4880 bits
 Run-Length: 9664 bits
 Huffman: 2706 bits
