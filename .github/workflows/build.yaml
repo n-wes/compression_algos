@@ -18,3 +18,5 @@ jobs:
       run: python -c "import sys; print(sys.version)"
     - name: Run build
       run: python main.py
+    - name: Check repo
+      run: ls
